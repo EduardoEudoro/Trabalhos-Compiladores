@@ -10,15 +10,6 @@ Este projeto implementa a **PixelArtDSL**, uma Linguagem de Domínio Específico
 ## Demonstração (Pitch de Vendas)
 
 O vídeo demonstrativo pode ser encontrado no link: `[INSIRA O LINK DO SEU VÍDEO NO YOUTUBE AQUI]`
-
-### Como gravar o vídeo (Dica para o Grupo)
-
-1. **Comece com o problema**: "Fazer pixel art em código é difícil. Editores de imagem não são automatizáveis. O Canvas padrão do HTML/JS exige muito código repetitivo."
-2. **Apresente a Solução (PixelArtDSL)**: Mostre o arquivo `casos_de_teste/1_valido.pxl` na tela. Explique como é fácil definir uma grade, paleta de cores, e comandos de desenho humano-legíveis.
-3. **Execute ao vivo**: Abra o terminal e rode `python main.py casos_de_teste/1_valido.pxl output.html`.
-4. **Mostre a Mágica**: Dê um clique duplo em `output.html` e mostre o navegador renderizando o desenho instantaneamente, perfeitamente nítido sem blur graças à geração em SVG.
-5. **Mostre as Validações Semânticas**: No final, rode o teste `3_erro_cor_nao_declarada.pxl` para provar que a linguagem avisa erros semânticos inteligentemente antes de gerar o código.
-
 ---
 
 ## Estrutura da Linguagem
